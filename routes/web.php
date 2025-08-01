@@ -8,6 +8,7 @@ Route::get('/', function () {
 });
 
 
+
 // Route::get('users',[UserController::class,"index"] );
 // Route::get('users/create',[UserController::class,"create"] )->name('users.create');
 Route::resource('users',UserController::class);
